@@ -1,0 +1,14 @@
+Proceso Ejercicio_15
+	definir n Como Real
+	Escribir "Ingrese numero";
+	leer n;
+	si n==0 Entonces
+		Escribir "El numero es nulo";
+	FinSi
+	si n>0 Entonces
+		Escribir "El numero es positivo";
+	FinSi
+	si n<0 Entonces
+		Escribir "El numero es negativo";
+	FinSi
+FinProceso
