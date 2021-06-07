@@ -1,0 +1,6 @@
+Proceso Ejercicio_6
+	Definir num,res Como Real
+	num<-Aleatorio(0,200);
+	res<-num+((30/100)*num);
+	Escribir "El numero ",num," aumentado un 30 porciento es ",res;
+FinProceso
