@@ -1,0 +1,10 @@
+Proceso Ejercicio_8
+	definir n1,n2,n3,p Como Real
+	Escribir "Ingrese tres numeros";
+	leer n1;
+	leer n2;
+	leer n3;
+	p<-(n1+n2+n3)/3;
+	Escribir "El promedio de los numeros ",n1,", ",n2," y ",n3," es ",p;
+	
+FinProceso
