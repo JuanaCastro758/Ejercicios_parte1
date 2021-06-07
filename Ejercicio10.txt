@@ -1,0 +1,14 @@
+Proceso Ejercicio_10
+	definir b,h,p,a Como Real
+	Escribir "Ingrese la base";
+	leer b;
+	Escribir "Ingrese la altura";
+	leer h;
+	si b>0 y h>0 entonces 
+		p<-(2*b)+(2*h);
+		a<-b*h;
+		Escribir "El area es ",a," y su perimetro es ",p;
+	Sino
+		Escribir "Los datos no son validos";
+	FinSi
+FinProceso
