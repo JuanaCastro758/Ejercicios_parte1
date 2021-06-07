@@ -1,0 +1,11 @@
+Proceso Ejercicio_9
+	Definir c,a,b Como caracter
+	Escribir "Ingrese dos datos";
+	leer a;
+	leer b;
+	c<-a;
+	a<-b;
+	b<-c;
+	Escribir "Los datos ingresado son ",a," y ",b;
+	
+FinProceso
