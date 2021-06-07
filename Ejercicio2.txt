@@ -1,0 +1,9 @@
+Proceso Ejercicio2
+	Definir t1,t2 Como Caracter
+	Escribir "Ingrese el pais";
+	Leer t1;
+	Escribir "Ingrese la capital el pais";
+	Leer t2;
+	Escribir t2," es la capital de ",t1;
+	
+FinProceso
