@@ -1,0 +1,8 @@
+Proceso Ejercicio_3
+	Definir n1,dobl,tripl Como Entero
+	Escribir "Ingrese numero";
+	leer n1;
+	dobl<-n1*2;
+	tripl<-n1*3;
+	Escribir "El doble de ",n1," es ",dobl," y el triple es ",tripl;
+FinProceso
