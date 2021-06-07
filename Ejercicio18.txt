@@ -1,0 +1,52 @@
+Proceso Ejercicio_18
+	Escribir "Ingresar el numero";
+	leer num;
+	letra<-ConvertirATexto(num)
+	cade1<-Subcadena(letra,1,1);
+	cade2<-Subcadena(letra,2,2);
+	cade3<-Subcadena(letra,3,3);
+	cade4<-Subcadena(letra,4,4);
+	m<-ConvertirANumero(cade1);
+	c<-ConvertirANumero(cade2);
+	d<-ConvertirANumero(cade3);
+	u<-ConvertirANumero(cade4);
+	suma<-m+c+d+u;
+	si num<10 Entonces
+		Escribir "d1: 0";
+		Escribir "d2: 0";
+		Escribir "d3: 0";
+		Escribir "d4: ",cade1;
+		Escribir "Suma: ",suma;
+	Sino
+		si num<=100 Entonces
+			Escribir "d1: 0";
+			Escribir "d2: 0";
+			Escribir "d3: ",cade1;
+			Escribir "d4: ",cade2;
+			Escribir "Suma: ",suma;
+			Escribir "Suma: ",suma;
+		sino
+			si num<=1000 Entonces
+				Escribir "d1: 0";
+				Escribir "d2: ",cade1;
+				Escribir "d3: ",cade2;
+				Escribir "d4: ",cade3;
+				Escribir "Suma: ",suma;
+			Sino
+				si num<=10000 Entonces
+					Escribir "d1: ",cade1;
+					Escribir "d2: ",cade2;
+					Escribir "d3: ",cade3;
+					Escribir "d4: ",cade4;
+					Escribir "Suma: ",suma;
+				Sino
+					Escribir "El numero tiene mas de 4 cifras";	
+				FinSi
+			FinSi
+		FinSi
+		
+	FinSi
+	
+	
+	
+FinProceso
