@@ -1,0 +1,13 @@
+Proceso Ejercicio_13
+	Definir r,h,v Como Real
+	Escribir "Ingrese radio";
+	Leer r;
+	Escribir "Ingrese altura";
+	leer h;
+	si r>0 y h>0 Entonces
+		v<-pi*r*r*h;
+		Escribir "El volumen del cilinro es ",v;
+	Sino
+		Escribir "Los datos son invalidos";
+	FinSi
+FinProceso
