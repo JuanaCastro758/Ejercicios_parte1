@@ -1,0 +1,7 @@
+Proceso Ejercicio_12
+	Definir c,f Como Real
+	Escribir "Ingrese la temperatura en Celsius";
+	leer c;
+	f<-(c*1.8)+32;
+	Escribir "Los ",c," grados Celsius son ",f," grados Fahrenheit";
+FinProceso
