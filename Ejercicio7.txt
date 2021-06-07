@@ -1,0 +1,7 @@
+Proceso Ejercicio_7
+	Definir num,res Como Real
+	num<-Aleatorio(10,50);
+	res<-num-((15/100)*num);
+	Escribir "El numero ",num," disminuido un 15 porciento es ",res;
+FinProceso
+
