@@ -1,0 +1,15 @@
+Proceso Ejercicio_17
+	Escribir "Ingrese los tres lados del triangulo";
+	leer l1;
+	leer l2;
+	leer l3;
+	si l1==l2 y l2==l3 Entonces
+		Escribir "Es un triangulo equilatero";
+	Sino
+		si l1==l2 o l2==l3 o l3==l1 Entonces
+			Escribir "Es un triangulo Isosceles";
+		Sino
+			Escribir "Es un triangulo escaleno";
+		FinSi
+	FinSi
+FinProceso
