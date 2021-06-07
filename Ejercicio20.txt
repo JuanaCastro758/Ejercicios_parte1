@@ -1,0 +1,26 @@
+Proceso Ejercicio_20
+	Escribir "Ingresar el numero";
+	leer num;
+	si num<100000 Entonces
+		letra<-ConvertirATexto(num)
+		cade1<-Subcadena(letra,1,1);
+		cade2<-Subcadena(letra,2,2);
+		cade3<-Subcadena(letra,3,3);
+		cade4<-Subcadena(letra,4,4);
+		cade5<-Subcadena(letra,5,5);
+		conca1<-Concatenar(cade5,cade4);
+		conca2<-Concatenar(conca1,cade3);
+		conca3<-Concatenar(conca2,cade2);
+		conca4<-Concatenar(conca3,cade1);
+		si letra==conca4 entonces
+			Escribir "Es Capicua";
+		Sino
+			Escribir "No es Capicua";
+		FinSi
+	Sino
+		Escribir "El numero tiene mas de 5 cifras";	
+	FinSi
+	
+	
+	
+FinProceso
