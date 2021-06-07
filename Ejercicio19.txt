@@ -1,0 +1,11 @@
+Proceso Ejercicio_19
+	num<-Aleatorio(1,1000);
+	Escribir "El numero es ",num;
+	si num<26 y num mod 5==0 Entonces
+		Escribir "Correcto";
+	Sino
+		
+		Escribir "Incorrecto";
+	FinSi
+
+FinProceso
