@@ -1,0 +1,8 @@
+Proceso Ejercicio_4
+	definir n1,cuad,trip Como Entero
+	Escribir "Ingrese un numero";
+	leer n1;
+	cuad<-n1*n1;
+	trip<-cuad*n1;
+	Escribir "El cuadrado del numero ",n1," es ",cuad," y el cubo es ",trip;
+FinProceso
