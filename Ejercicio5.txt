@@ -1,0 +1,7 @@
+Proceso ejercicio_5
+	definir n1,res Como Entero
+	Escribir "Ingrese un numero";
+	leer n1;
+	res<-n1+1;
+	Escribir "El numero siguiente de ",n1," es ",res;
+FinProceso
